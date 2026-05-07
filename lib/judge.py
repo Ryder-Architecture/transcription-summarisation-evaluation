@@ -60,45 +60,6 @@ EXEC_SUMMARY_JUDGE_USER_TEMPLATE = _load_judge_prompt("executive_summary")
 
 
 ACTION_EXTRACTION_JUDGE_USER_TEMPLATE = _load_judge_prompt("action_extraction")
-DEDUP_JUDGE_USER_TEMPLATE = """## Task
-
-You are evaluating a deduplication system that was run over the action items \
-extracted from overlapping transcript windows. Decide whether each merge decision was correct.
-
-## Raw Items (with indices)
-
-{raw_json}
-
-## Dedup Result
-
-Groups (each item: canonical_index merged with duplicate_indices):
-{groups_json}
-
-Singletons (kept separately, not deduplicated):
-{singletons_json}
-
-Two items are duplicates if they describe the SAME commitment by the SAME person, \
-even with different wording. Items about different actions, even by the same person, \
-are NOT duplicates. Items about the same topic but different actions are NOT duplicates.
-
-## Instructions
-
-For each merge group, decide whether it is a CORRECT merge (true positive — items \
-were genuinely duplicates) or an INCORRECT merge (false positive — distinct items \
-were wrongly conflated).
-
-Then look across the singletons and groups for missed duplicates — pairs of items \
-that describe the same commitment but were not merged.
-
-End your response with a JSON block in exactly this format:
-```json
-{{
-  "correct_merges": [<group_position>],
-  "incorrect_merges": [<group_position>],
-  "missed_duplicate_pairs": [[<raw_index_a>, <raw_index_b>]]
-}}
-```
-Where <group_position> is the 0-based index of the group in the dedup result above."""
 
 
 # ---------------------------------------------------------------------------
@@ -207,32 +168,6 @@ ACTION_JUDGE_SCHEMA = {
     },
 }
 
-DEDUP_JUDGE_SCHEMA = {
-    "type": "json_schema",
-    "json_schema": {
-        "name": "dedup_judgement",
-        "strict": True,
-        "schema": {
-            "type": "object",
-            "properties": {
-                "correct_merges": {"type": "array", "items": {"type": "integer"}},
-                "incorrect_merges": {"type": "array", "items": {"type": "integer"}},
-                "missed_duplicate_pairs": {
-                    "type": "array",
-                    "items": {
-                        "type": "array",
-                        "items": {"type": "integer"},
-                        "minItems": 2,
-                        "maxItems": 2,
-                    },
-                },
-            },
-            "required": ["correct_merges", "incorrect_merges", "missed_duplicate_pairs"],
-            "additionalProperties": False,
-        },
-    },
-}
-
 
 # ---------------------------------------------------------------------------
 # Result dataclasses (serialised to per-judge JSON)
@@ -243,7 +178,7 @@ DEDUP_JUDGE_SCHEMA = {
 class JudgementOut:
     """Common fields for any judgement; written to results/judgements/...json."""
 
-    kind: str  # "summary" | "exec" | "action_extraction" | "dedup"
+    kind: str  # "summary" | "exec" | "action_extraction"
     record_id: str
     transcript_id: str
     candidate_model: str
@@ -499,44 +434,6 @@ async def evaluate_action_extraction(
     )
 
 
-async def evaluate_dedup(
-    *,
-    raw_items: list[dict],
-    groups: list[dict],
-    singletons: list[int],
-    transcript_id: str,
-    candidate_model: str,
-    judge_name: str,
-    backend: str,
-    judge_model: str,
-    base_url: str | None = None,
-) -> JudgementOut:
-    user_prompt = DEDUP_JUDGE_USER_TEMPLATE.format(
-        raw_json=json.dumps(
-            [
-                {"index": i, "text": x.get("text"), "attributed_to": x.get("attributed_to"),
-                 "deadline": x.get("deadline")}
-                for i, x in enumerate(raw_items)
-            ],
-            indent=2,
-        ),
-        groups_json=json.dumps(groups, indent=2),
-        singletons_json=json.dumps(singletons, indent=2),
-    )
-    return await _run_judge(
-        kind="dedup",
-        record_id=f"{transcript_id}_dedup",
-        transcript_id=transcript_id,
-        candidate_model=candidate_model,
-        judge_name=judge_name,
-        backend=backend,
-        judge_model=judge_model,
-        base_url=base_url,
-        user_prompt=user_prompt,
-        schema=DEDUP_JUDGE_SCHEMA,
-        post_parse=_dedup_payload,
-    )
-
 
 # ---------------------------------------------------------------------------
 # Shared judge runner
@@ -634,17 +531,6 @@ def _action_payload(parsed: dict) -> dict:
         "false_negative_indices": [int(i) for i in (parsed.get("false_negative_indices") or []) if isinstance(i, int)],
     }
 
-
-def _dedup_payload(parsed: dict) -> dict:
-    return {
-        "correct_merges": [int(i) for i in (parsed.get("correct_merges") or []) if isinstance(i, int)],
-        "incorrect_merges": [int(i) for i in (parsed.get("incorrect_merges") or []) if isinstance(i, int)],
-        "missed_duplicate_pairs": [
-            [int(p[0]), int(p[1])]
-            for p in (parsed.get("missed_duplicate_pairs") or [])
-            if isinstance(p, list) and len(p) == 2
-        ],
-    }
 
 
 # ---------------------------------------------------------------------------

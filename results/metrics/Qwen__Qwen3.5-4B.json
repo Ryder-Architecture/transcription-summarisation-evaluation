@@ -1,0 +1,910 @@
+{
+  "model": "Qwen/Qwen3.5-4B",
+  "local_judge": "local-Qwen3.6-27B-FP8",
+  "action_judge": {
+    "per_window": [
+      {
+        "transcript_id": "t001",
+        "record_id": "t001_xw000",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      },
+      {
+        "transcript_id": "t023",
+        "record_id": "t024_xw000",
+        "tp": 5,
+        "fp": 0,
+        "fn": 1
+      },
+      {
+        "transcript_id": "t015",
+        "record_id": "t016_xw001",
+        "tp": 8,
+        "fp": 0,
+        "fn": 1
+      },
+      {
+        "transcript_id": "t002",
+        "record_id": "t002_xw000",
+        "tp": 4,
+        "fp": 0,
+        "fn": 1
+      },
+      {
+        "transcript_id": "t015",
+        "record_id": "t016_xw002",
+        "tp": 8,
+        "fp": 1,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t001",
+        "record_id": "t001_xw001",
+        "tp": 9,
+        "fp": 1,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t016",
+        "record_id": "t017_xw001",
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t016",
+        "record_id": "t017_xw000",
+        "tp": 5,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t023",
+        "record_id": "t024_xw001",
+        "tp": 11,
+        "fp": 0,
+        "fn": 2
+      },
+      {
+        "transcript_id": "t023",
+        "record_id": "t024_xw003",
+        "tp": 4,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t023",
+        "record_id": "t024_xw002",
+        "tp": 10,
+        "fp": 0,
+        "fn": 2
+      },
+      {
+        "transcript_id": "t003",
+        "record_id": "t003_xw000",
+        "tp": 7,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t024",
+        "record_id": "t025_xw000",
+        "tp": 3,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t005",
+        "record_id": "t005_xw000",
+        "tp": 5,
+        "fp": 0,
+        "fn": 1
+      },
+      {
+        "transcript_id": "t024",
+        "record_id": "t025_xw001",
+        "tp": 6,
+        "fp": 1,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t024",
+        "record_id": "t025_xw002",
+        "tp": 4,
+        "fp": 1,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t007",
+        "record_id": "t007_xw000",
+        "tp": 2,
+        "fp": 0,
+        "fn": 1
+      },
+      {
+        "transcript_id": "t006",
+        "record_id": "t006_xw000",
+        "tp": 6,
+        "fp": 0,
+        "fn": 3
+      },
+      {
+        "transcript_id": "t017",
+        "record_id": "t018_xw000",
+        "tp": 8,
+        "fp": 2,
+        "fn": 2
+      },
+      {
+        "transcript_id": "t024",
+        "record_id": "t025_xw003",
+        "tp": 4,
+        "fp": 4,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t017",
+        "record_id": "t018_xw001",
+        "tp": 7,
+        "fp": 1,
+        "fn": 1
+      },
+      {
+        "transcript_id": "t008",
+        "record_id": "t008_xw000",
+        "tp": 8,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t025",
+        "record_id": "t026_xw000",
+        "tp": 6,
+        "fp": 2,
+        "fn": 2
+      },
+      {
+        "transcript_id": "t017",
+        "record_id": "t018_xw002",
+        "tp": 8,
+        "fp": 1,
+        "fn": 1
+      },
+      {
+        "transcript_id": "t025",
+        "record_id": "t026_xw001",
+        "tp": 5,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t017",
+        "record_id": "t018_xw004",
+        "tp": 3,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t018",
+        "record_id": "t019_xw000",
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t025",
+        "record_id": "t026_xw003",
+        "tp": 3,
+        "fp": 0,
+        "fn": 1
+      },
+      {
+        "transcript_id": "t018",
+        "record_id": "t019_xw001",
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t009",
+        "record_id": "t010_xw000",
+        "tp": 3,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t026",
+        "record_id": "t026_xw000",
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t025",
+        "record_id": "t026_xw004",
+        "tp": 8,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t009",
+        "record_id": "t010_xw001",
+        "tp": 7,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t018",
+        "record_id": "t019_xw002",
+        "tp": 8,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t026",
+        "record_id": "t026_xw001",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t009",
+        "record_id": "t010_xw002",
+        "tp": 4,
+        "fp": 0,
+        "fn": 2
+      },
+      {
+        "transcript_id": "t018",
+        "record_id": "t019_xw003",
+        "tp": 6,
+        "fp": 2,
+        "fn": 2
+      },
+      {
+        "transcript_id": "t026",
+        "record_id": "t026_xw002",
+        "tp": 0,
+        "fp": 8,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t008",
+        "record_id": "t008_xw001",
+        "tp": 12,
+        "fp": 0,
+        "fn": 1
+      },
+      {
+        "transcript_id": "t010",
+        "record_id": "t011_xw000",
+        "tp": 11,
+        "fp": 4,
+        "fn": 7
+      },
+      {
+        "transcript_id": "t019",
+        "record_id": "t020_xw001",
+        "tp": 5,
+        "fp": 0,
+        "fn": 1
+      },
+      {
+        "transcript_id": "t026",
+        "record_id": "t026_xw003",
+        "tp": 6,
+        "fp": 4,
+        "fn": 2
+      },
+      {
+        "transcript_id": "t010",
+        "record_id": "t011_xw002",
+        "tp": 3,
+        "fp": 1,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t019",
+        "record_id": "t020_xw002",
+        "tp": 8,
+        "fp": 3,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t011",
+        "record_id": "t012_xw000",
+        "tp": 4,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t011",
+        "record_id": "t012_xw001",
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+      },
+      {
+        "transcript_id": "t019",
+        "record_id": "t020_xw003",
+        "tp": 7,
+        "fp": 2,
+        "fn": 6
+      },
+      {
+        "transcript_id": "t020",
+        "record_id": "t021_xw000",
+        "tp": 9,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t020",
+        "record_id": "t021_xw001",
+        "tp": 7,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t012",
+        "record_id": "t013_xw000",
+        "tp": 6,
+        "fp": 3,
+        "fn": 4
+      },
+      {
+        "transcript_id": "t020",
+        "record_id": "t021_xw002",
+        "tp": 2,
+        "fp": 3,
+        "fn": 1
+      },
+      {
+        "transcript_id": "t013",
+        "record_id": "t014_xw000",
+        "tp": 8,
+        "fp": 2,
+        "fn": 1
+      },
+      {
+        "transcript_id": "t021",
+        "record_id": "t022_xw000",
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t013",
+        "record_id": "t014_xw002",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      },
+      {
+        "transcript_id": "t021",
+        "record_id": "t022_xw001",
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t013",
+        "record_id": "t014_xw001",
+        "tp": 9,
+        "fp": 0,
+        "fn": 8
+      },
+      {
+        "transcript_id": "t021",
+        "record_id": "t022_xw002",
+        "tp": 2,
+        "fp": 1,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t014",
+        "record_id": "t015_xw000",
+        "tp": 3,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t021",
+        "record_id": "t022_xw003",
+        "tp": 6,
+        "fp": 2,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t014",
+        "record_id": "t015_xw001",
+        "tp": 7,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t021",
+        "record_id": "t022_xw004",
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t022",
+        "record_id": "t023_xw001",
+        "tp": 12,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t015",
+        "record_id": "t016_xw000",
+        "tp": 6,
+        "fp": 0,
+        "fn": 1
+      },
+      {
+        "transcript_id": "t022",
+        "record_id": "t023_xw003",
+        "tp": 4,
+        "fp": 0,
+        "fn": 1
+      },
+      {
+        "transcript_id": "t022",
+        "record_id": "t023_xw000",
+        "tp": 11,
+        "fp": 0,
+        "fn": 7
+      },
+      {
+        "transcript_id": "t022",
+        "record_id": "t023_xw002",
+        "tp": 17,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t000",
+        "record_id": "t000_xw000",
+        "tp": 12,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t020",
+        "record_id": "t021_xw003",
+        "tp": 15,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t010",
+        "record_id": "t011_xw001",
+        "tp": 14,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t019",
+        "record_id": "t020_xw000",
+        "tp": 15,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t025",
+        "record_id": "t026_xw002",
+        "tp": 17,
+        "fp": 1,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t004",
+        "record_id": "t004_xw000",
+        "tp": 9,
+        "fp": 0,
+        "fn": 14
+      },
+      {
+        "transcript_id": "t017",
+        "record_id": "t018_xw003",
+        "tp": 19,
+        "fp": 4,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t012",
+        "record_id": "t013_xw001",
+        "tp": 23,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t023",
+        "record_id": "t024_xw004",
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t019",
+        "record_id": "t020_xw004",
+        "tp": 0,
+        "fp": 3,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t028",
+        "record_id": "t029_xw003",
+        "tp": 0,
+        "fp": 10,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t027",
+        "record_id": "t028_xw001",
+        "tp": 0,
+        "fp": 5,
+        "fn": 3
+      },
+      {
+        "transcript_id": "t028",
+        "record_id": "t029_xw002",
+        "tp": 0,
+        "fp": 8,
+        "fn": 6
+      },
+      {
+        "transcript_id": "t027",
+        "record_id": "t028_xw002",
+        "tp": 0,
+        "fp": 17,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t027",
+        "record_id": "t028_xw000",
+        "tp": 0,
+        "fp": 6,
+        "fn": 8
+      },
+      {
+        "transcript_id": "t027",
+        "record_id": "t028_xw003",
+        "tp": 0,
+        "fp": 3,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t027",
+        "record_id": "t028_xw004",
+        "tp": 0,
+        "fp": 8,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t016",
+        "record_id": "t017_xw002",
+        "tp": 0,
+        "fp": 8,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t028",
+        "record_id": "t029_xw001",
+        "tp": 0,
+        "fp": 1,
+        "fn": 15
+      },
+      {
+        "transcript_id": "t029",
+        "record_id": "t029_xw001",
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      },
+      {
+        "transcript_id": "t028",
+        "record_id": "t028_xw000",
+        "tp": 7,
+        "fp": 0,
+        "fn": 2
+      },
+      {
+        "transcript_id": "t028",
+        "record_id": "t028_xw002",
+        "tp": 5,
+        "fp": 0,
+        "fn": 2
+      },
+      {
+        "transcript_id": "t029",
+        "record_id": "t029_xw000",
+        "tp": 5,
+        "fp": 2,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t028",
+        "record_id": "t029_xw000",
+        "tp": 0,
+        "fp": 0,
+        "fn": 8
+      },
+      {
+        "transcript_id": "t028",
+        "record_id": "t028_xw001",
+        "tp": 14,
+        "fp": 0,
+        "fn": 1
+      },
+      {
+        "transcript_id": "t027",
+        "record_id": "t027_xw001",
+        "tp": 3,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "transcript_id": "t027",
+        "record_id": "t027_xw000",
+        "tp": 6,
+        "fp": 0,
+        "fn": 4
+      }
+    ],
+    "per_meeting": {
+      "t001": {
+        "tp": 9,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9,
+        "recall": 0.9,
+        "f1": 0.9
+      },
+      "t023": {
+        "tp": 30,
+        "fp": 0,
+        "fn": 5,
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "f1": 0.923076923076923
+      },
+      "t015": {
+        "tp": 22,
+        "fp": 1,
+        "fn": 2,
+        "precision": 0.9565217391304348,
+        "recall": 0.9166666666666666,
+        "f1": 0.9361702127659574
+      },
+      "t002": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.888888888888889
+      },
+      "t016": {
+        "tp": 5,
+        "fp": 8,
+        "fn": 0,
+        "precision": 0.38461538461538464,
+        "recall": 1.0,
+        "f1": 0.5555555555555556
+      },
+      "t003": {
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "t024": {
+        "tp": 17,
+        "fp": 6,
+        "fn": 0,
+        "precision": 0.7391304347826086,
+        "recall": 1.0,
+        "f1": 0.85
+      },
+      "t005": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1": 0.9090909090909091
+      },
+      "t007": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "t006": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "t017": {
+        "tp": 45,
+        "fp": 8,
+        "fn": 4,
+        "precision": 0.8490566037735849,
+        "recall": 0.9183673469387755,
+        "f1": 0.8823529411764707
+      },
+      "t008": {
+        "tp": 20,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.9523809523809523,
+        "f1": 0.975609756097561
+      },
+      "t025": {
+        "tp": 39,
+        "fp": 3,
+        "fn": 3,
+        "precision": 0.9285714285714286,
+        "recall": 0.9285714285714286,
+        "f1": 0.9285714285714286
+      },
+      "t018": {
+        "tp": 14,
+        "fp": 2,
+        "fn": 2,
+        "precision": 0.875,
+        "recall": 0.875,
+        "f1": 0.875
+      },
+      "t009": {
+        "tp": 14,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1": 0.9333333333333333
+      },
+      "t026": {
+        "tp": 7,
+        "fp": 12,
+        "fn": 2,
+        "precision": 0.3684210526315789,
+        "recall": 0.7777777777777778,
+        "f1": 0.5
+      },
+      "t010": {
+        "tp": 28,
+        "fp": 5,
+        "fn": 7,
+        "precision": 0.8484848484848485,
+        "recall": 0.8,
+        "f1": 0.823529411764706
+      },
+      "t019": {
+        "tp": 35,
+        "fp": 8,
+        "fn": 7,
+        "precision": 0.813953488372093,
+        "recall": 0.8333333333333334,
+        "f1": 0.8235294117647058
+      },
+      "t011": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "t020": {
+        "tp": 33,
+        "fp": 3,
+        "fn": 1,
+        "precision": 0.9166666666666666,
+        "recall": 0.9705882352941176,
+        "f1": 0.9428571428571428
+      },
+      "t012": {
+        "tp": 29,
+        "fp": 3,
+        "fn": 4,
+        "precision": 0.90625,
+        "recall": 0.8787878787878788,
+        "f1": 0.8923076923076922
+      },
+      "t013": {
+        "tp": 17,
+        "fp": 2,
+        "fn": 10,
+        "precision": 0.8947368421052632,
+        "recall": 0.6296296296296297,
+        "f1": 0.7391304347826088
+      },
+      "t021": {
+        "tp": 8,
+        "fp": 3,
+        "fn": 0,
+        "precision": 0.7272727272727273,
+        "recall": 1.0,
+        "f1": 0.8421052631578948
+      },
+      "t014": {
+        "tp": 10,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "t022": {
+        "tp": 44,
+        "fp": 0,
+        "fn": 8,
+        "precision": 1.0,
+        "recall": 0.8461538461538461,
+        "f1": 0.9166666666666666
+      },
+      "t000": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "t004": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 14,
+        "precision": 1.0,
+        "recall": 0.391304347826087,
+        "f1": 0.5625
+      },
+      "t028": {
+        "tp": 26,
+        "fp": 19,
+        "fn": 34,
+        "precision": 0.5777777777777777,
+        "recall": 0.43333333333333335,
+        "f1": 0.4952380952380952
+      },
+      "t027": {
+        "tp": 9,
+        "fp": 39,
+        "fn": 15,
+        "precision": 0.1875,
+        "recall": 0.375,
+        "f1": 0.25
+      },
+      "t029": {
+        "tp": 5,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.7142857142857143,
+        "recall": 0.8333333333333334,
+        "f1": 0.7692307692307692
+      }
+    },
+    "overall": {
+      "meeting_count": 30,
+      "tp": 515,
+      "fp": 125,
+      "fn": 131,
+      "precision": 0.8046875,
+      "recall": 0.7972136222910217,
+      "f1": 0.8009331259720063
+    }
+  }
+}

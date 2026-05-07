@@ -1,0 +1,236 @@
+{
+  "transcripts": [
+    {
+      "transcript_id": "t000",
+      "meeting_id": 10793,
+      "bucket": "short",
+      "total_tokens": 4555,
+      "turns": 137
+    },
+    {
+      "transcript_id": "t001",
+      "meeting_id": 13108,
+      "bucket": "short",
+      "total_tokens": 7214,
+      "turns": 28
+    },
+    {
+      "transcript_id": "t002",
+      "meeting_id": 5741,
+      "bucket": "short",
+      "total_tokens": 3947,
+      "turns": 91
+    },
+    {
+      "transcript_id": "t003",
+      "meeting_id": 11201,
+      "bucket": "short",
+      "total_tokens": 3691,
+      "turns": 109
+    },
+    {
+      "transcript_id": "t004",
+      "meeting_id": 7332,
+      "bucket": "short",
+      "total_tokens": 3468,
+      "turns": 227
+    },
+    {
+      "transcript_id": "t005",
+      "meeting_id": 12135,
+      "bucket": "short",
+      "total_tokens": 4414,
+      "turns": 36
+    },
+    {
+      "transcript_id": "t006",
+      "meeting_id": 2214,
+      "bucket": "short",
+      "total_tokens": 4346,
+      "turns": 145
+    },
+    {
+      "transcript_id": "t007",
+      "meeting_id": 10627,
+      "bucket": "short",
+      "total_tokens": 4401,
+      "turns": 70
+    },
+    {
+      "transcript_id": "t008",
+      "meeting_id": 12552,
+      "bucket": "short",
+      "total_tokens": 7346,
+      "turns": 265
+    },
+    {
+      "transcript_id": "t009",
+      "meeting_id": 14316,
+      "bucket": "medium",
+      "total_tokens": 11630,
+      "turns": 212
+    },
+    {
+      "transcript_id": "t010",
+      "meeting_id": 4987,
+      "bucket": "medium",
+      "total_tokens": 11677,
+      "turns": 293
+    },
+    {
+      "transcript_id": "t011",
+      "meeting_id": 2428,
+      "bucket": "medium",
+      "total_tokens": 8140,
+      "turns": 76
+    },
+    {
+      "transcript_id": "t012",
+      "meeting_id": 14736,
+      "bucket": "medium",
+      "total_tokens": 8827,
+      "turns": 254
+    },
+    {
+      "transcript_id": "t013",
+      "meeting_id": 11089,
+      "bucket": "medium",
+      "total_tokens": 10336,
+      "turns": 409
+    },
+    {
+      "transcript_id": "t014",
+      "meeting_id": 1485,
+      "bucket": "medium",
+      "total_tokens": 9863,
+      "turns": 298
+    },
+    {
+      "transcript_id": "t015",
+      "meeting_id": 4450,
+      "bucket": "medium",
+      "total_tokens": 12817,
+      "turns": 225
+    },
+    {
+      "transcript_id": "t016",
+      "meeting_id": 5961,
+      "bucket": "medium",
+      "total_tokens": 8233,
+      "turns": 46
+    },
+    {
+      "transcript_id": "t017",
+      "meeting_id": 7019,
+      "bucket": "long",
+      "total_tokens": 25249,
+      "turns": 593
+    },
+    {
+      "transcript_id": "t018",
+      "meeting_id": 8283,
+      "bucket": "long",
+      "total_tokens": 16641,
+      "turns": 58
+    },
+    {
+      "transcript_id": "t019",
+      "meeting_id": 2631,
+      "bucket": "long",
+      "total_tokens": 20107,
+      "turns": 389
+    },
+    {
+      "transcript_id": "t020",
+      "meeting_id": 14458,
+      "bucket": "long",
+      "total_tokens": 19085,
+      "turns": 336
+    },
+    {
+      "transcript_id": "t021",
+      "meeting_id": 5814,
+      "bucket": "long",
+      "total_tokens": 18410,
+      "turns": 97
+    },
+    {
+      "transcript_id": "t022",
+      "meeting_id": 11224,
+      "bucket": "long",
+      "total_tokens": 16001,
+      "turns": 504
+    },
+    {
+      "transcript_id": "t023",
+      "meeting_id": 13448,
+      "bucket": "long",
+      "total_tokens": 17794,
+      "turns": 865
+    },
+    {
+      "transcript_id": "t024",
+      "meeting_id": 9422,
+      "bucket": "long",
+      "total_tokens": 18568,
+      "turns": 258
+    },
+    {
+      "transcript_id": "t025",
+      "meeting_id": 965,
+      "bucket": "long",
+      "total_tokens": 21756,
+      "turns": 490
+    },
+    {
+      "transcript_id": "t026",
+      "meeting_id": 5576,
+      "bucket": "long",
+      "total_tokens": 19264,
+      "turns": 127
+    },
+    {
+      "transcript_id": "t027",
+      "meeting_id": 12431,
+      "bucket": "short",
+      "total_tokens": 5426,
+      "turns": 161
+    },
+    {
+      "transcript_id": "t028",
+      "meeting_id": 6904,
+      "bucket": "medium",
+      "total_tokens": 14466,
+      "turns": 306
+    },
+    {
+      "transcript_id": "t029",
+      "meeting_id": 4194,
+      "bucket": "medium",
+      "total_tokens": 10199,
+      "turns": 94
+    }
+  ],
+  "seed": 42,
+  "buckets": [
+    {
+      "name": "short",
+      "min": 2000,
+      "max": 8000,
+      "target": 10
+    },
+    {
+      "name": "medium",
+      "min": 8000,
+      "max": 15000,
+      "target": 10
+    },
+    {
+      "name": "long",
+      "min": 15000,
+      "max": 30000,
+      "target": 10
+    }
+  ],
+  "chars_per_token": 4
+}

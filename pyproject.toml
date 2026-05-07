@@ -1,0 +1,19 @@
+[project]
+name = "transcription-summarisation-quality"
+version = "0.1.0"
+description = "Quality benchmark for a meeting-transcript summarisation pipeline on real meeting transcripts, judged by Qwen3.6-27B-FP8 with optional Anthropic Haiku cross-check."
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.13",
+    "openai>=1.82",
+    "anthropic>=0.84",
+    "httpx>=0.27",
+    "pydantic>=2.6",
+    "pandas>=2.2",
+    "scipy>=1.17",
+    "tqdm>=4.67",
+    "rouge-score>=0.1.2",
+    "json-repair>=0.30",
+    "numpy>=1.26",
+    "matplotlib>=3.10.9",
+]

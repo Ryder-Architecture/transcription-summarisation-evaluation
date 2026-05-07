@@ -1,0 +1,3680 @@
+[
+  {
+    "kind": "action_extraction",
+    "record_id": "t001_xw000",
+    "transcript_id": "t001",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        0
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t016_tier1_w002",
+    "transcript_id": "t015",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t008_tier1_w000",
+    "transcript_id": "t008",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t016_tier1_w001",
+    "transcript_id": "t015",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t022_tier1_w001",
+    "transcript_id": "t021",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t022_tier1_w002",
+    "transcript_id": "t021",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t008_tier1_w001",
+    "transcript_id": "t008",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t024_xw000",
+    "transcript_id": "t023",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        5
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t008_exec",
+    "transcript_id": "t008",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 2,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t016_xw001",
+    "transcript_id": "t015",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        5
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t022_tier1_w003",
+    "transcript_id": "t021",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t016_exec",
+    "transcript_id": "t015",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 3,
+      "conciseness": 4,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t002_xw000",
+    "transcript_id": "t002",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        1
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t016_xw002",
+    "transcript_id": "t015",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        7
+      ],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t001_xw001",
+    "transcript_id": "t001",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        9
+      ],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t017_xw001",
+    "transcript_id": "t016",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t017_xw000",
+    "transcript_id": "t016",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t017_tier1_w000",
+    "transcript_id": "t016",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t024_xw001",
+    "transcript_id": "t023",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        7,
+        8
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t017_tier1_w001",
+    "transcript_id": "t016",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t024_xw003",
+    "transcript_id": "t023",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t022_tier1_w004",
+    "transcript_id": "t021",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 1,
+      "completeness": 3,
+      "conciseness": 2,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t024_xw002",
+    "transcript_id": "t023",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        1,
+        11
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t022_exec",
+    "transcript_id": "t021",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 4,
+      "conciseness": 4,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t003_xw000",
+    "transcript_id": "t003",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t025_xw000",
+    "transcript_id": "t024",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t023_tier1_w000",
+    "transcript_id": "t022",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t017_exec",
+    "transcript_id": "t016",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 1,
+      "completeness": 3,
+      "conciseness": 4,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t005_xw000",
+    "transcript_id": "t005",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        1
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t010_tier1_w000",
+    "transcript_id": "t009",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 4,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t025_xw001",
+    "transcript_id": "t024",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        5
+      ],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t023_tier1_w001",
+    "transcript_id": "t022",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t010_tier1_w001",
+    "transcript_id": "t009",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t025_xw002",
+    "transcript_id": "t024",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        4
+      ],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t007_xw000",
+    "transcript_id": "t007",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        1
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t023_tier1_w002",
+    "transcript_id": "t022",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t006_xw000",
+    "transcript_id": "t006",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        0,
+        1,
+        6
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t018_xw000",
+    "transcript_id": "t017",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        1,
+        5
+      ],
+      "false_negative_indices": [
+        0,
+        5
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t012_exec",
+    "transcript_id": "t011",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t025_xw003",
+    "transcript_id": "t024",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t023_tier1_w003",
+    "transcript_id": "t022",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t018_xw001",
+    "transcript_id": "t017",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        4
+      ],
+      "false_negative_indices": [
+        5
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t018_tier1_w000",
+    "transcript_id": "t017",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t008_xw000",
+    "transcript_id": "t008",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t023_exec",
+    "transcript_id": "t022",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 3,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t010_tier1_w002",
+    "transcript_id": "t009",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 3,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t026_xw000",
+    "transcript_id": "t025",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        0,
+        5
+      ],
+      "false_negative_indices": [
+        0,
+        1
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t018_xw002",
+    "transcript_id": "t017",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        0
+      ],
+      "false_negative_indices": [
+        2
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t018_tier1_w001",
+    "transcript_id": "t017",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t024_tier1_w000",
+    "transcript_id": "t023",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 3,
+      "conciseness": 5,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t010_exec",
+    "transcript_id": "t009",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 3,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t026_xw001",
+    "transcript_id": "t025",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t018_xw004",
+    "transcript_id": "t017",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t011_tier1_w000",
+    "transcript_id": "t010",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 3,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t024_tier1_w001",
+    "transcript_id": "t023",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t018_tier1_w002",
+    "transcript_id": "t017",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 3,
+      "conciseness": 5,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t019_xw000",
+    "transcript_id": "t018",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t026_xw003",
+    "transcript_id": "t025",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        3
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t011_tier1_w001",
+    "transcript_id": "t010",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 3,
+      "conciseness": 5,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t018_tier1_w003",
+    "transcript_id": "t017",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t019_xw001",
+    "transcript_id": "t018",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t010_xw000",
+    "transcript_id": "t009",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t024_tier1_w002",
+    "transcript_id": "t023",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 4,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t024_tier1_w003",
+    "transcript_id": "t023",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t018_tier1_w004",
+    "transcript_id": "t017",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t011_tier1_w002",
+    "transcript_id": "t010",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t026_xw000",
+    "transcript_id": "t026",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t026_xw004",
+    "transcript_id": "t025",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t010_xw001",
+    "transcript_id": "t009",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t000_tier1_w000",
+    "transcript_id": "t000",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t011_exec",
+    "transcript_id": "t010",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 3,
+      "conciseness": 4,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t018_exec",
+    "transcript_id": "t017",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 2,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t019_xw002",
+    "transcript_id": "t018",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t024_exec",
+    "transcript_id": "t023",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 1,
+      "completeness": 2,
+      "conciseness": 4,
+      "clarity": 3
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t026_xw001",
+    "transcript_id": "t026",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t010_xw002",
+    "transcript_id": "t009",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        1,
+        4
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t012_tier1_w000",
+    "transcript_id": "t011",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t019_xw003",
+    "transcript_id": "t018",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        4,
+        5
+      ],
+      "false_negative_indices": [
+        0,
+        2
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t000_exec",
+    "transcript_id": "t000",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 3,
+      "conciseness": 4,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t025_tier1_w000",
+    "transcript_id": "t024",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t019_tier1_w000",
+    "transcript_id": "t018",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t026_xw002",
+    "transcript_id": "t026",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t012_tier1_w001",
+    "transcript_id": "t011",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t001_tier1_w000",
+    "transcript_id": "t001",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t019_tier1_w001",
+    "transcript_id": "t018",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t025_tier1_w001",
+    "transcript_id": "t024",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t008_xw001",
+    "transcript_id": "t008",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        2
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t011_xw000",
+    "transcript_id": "t010",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "false_negative_indices": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t020_xw001",
+    "transcript_id": "t019",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        5
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t001_tier1_w001",
+    "transcript_id": "t001",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t019_tier1_w002",
+    "transcript_id": "t018",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t026_xw003",
+    "transcript_id": "t026",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "false_negative_indices": [
+        0,
+        5
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t013_tier1_w000",
+    "transcript_id": "t012",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 4,
+      "conciseness": 4,
+      "clarity": 3
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t011_xw002",
+    "transcript_id": "t010",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        3
+      ],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t025_tier1_w002",
+    "transcript_id": "t024",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 3,
+      "conciseness": 4,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t001_exec",
+    "transcript_id": "t001",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t020_xw002",
+    "transcript_id": "t019",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        6,
+        7,
+        9
+      ],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t013_tier1_w001",
+    "transcript_id": "t012",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t019_tier1_w003",
+    "transcript_id": "t018",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t025_tier1_w003",
+    "transcript_id": "t024",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t012_xw000",
+    "transcript_id": "t011",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t002_tier1_w000",
+    "transcript_id": "t002",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 3,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t019_exec",
+    "transcript_id": "t018",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 3,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t013_exec",
+    "transcript_id": "t012",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t012_xw001",
+    "transcript_id": "t011",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        0,
+        1
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t020_xw003",
+    "transcript_id": "t019",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        5,
+        6
+      ],
+      "false_negative_indices": [
+        0,
+        5,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t025_exec",
+    "transcript_id": "t024",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 3,
+      "conciseness": 5,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t002_exec",
+    "transcript_id": "t002",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t014_tier1_w000",
+    "transcript_id": "t013",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t021_xw000",
+    "transcript_id": "t020",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t020_tier1_w000",
+    "transcript_id": "t019",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 3
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t026_tier1_w000",
+    "transcript_id": "t025",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 2,
+      "conciseness": 4,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t021_xw001",
+    "transcript_id": "t020",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t003_tier1_w000",
+    "transcript_id": "t003",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t013_xw000",
+    "transcript_id": "t012",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        0,
+        2,
+        8
+      ],
+      "false_negative_indices": [
+        1,
+        2,
+        8,
+        9
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t014_tier1_w001",
+    "transcript_id": "t013",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t020_tier1_w001",
+    "transcript_id": "t019",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t026_tier1_w001",
+    "transcript_id": "t025",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t021_xw002",
+    "transcript_id": "t020",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        0,
+        1,
+        4
+      ],
+      "false_negative_indices": [
+        0
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t003_exec",
+    "transcript_id": "t003",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t014_tier1_w002",
+    "transcript_id": "t013",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t020_tier1_w002",
+    "transcript_id": "t019",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t026_tier1_w002",
+    "transcript_id": "t025",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t004_tier1_w000",
+    "transcript_id": "t004",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 4,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t014_xw000",
+    "transcript_id": "t013",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        8,
+        9
+      ],
+      "false_negative_indices": [
+        3
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t014_exec",
+    "transcript_id": "t013",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 1,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t020_tier1_w003",
+    "transcript_id": "t019",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 3,
+      "conciseness": 5,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t022_xw000",
+    "transcript_id": "t021",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t026_tier1_w003",
+    "transcript_id": "t025",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t004_exec",
+    "transcript_id": "t004",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 2,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t015_tier1_w000",
+    "transcript_id": "t014",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t014_xw002",
+    "transcript_id": "t013",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        0
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t022_xw001",
+    "transcript_id": "t021",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t020_exec",
+    "transcript_id": "t019",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 3,
+      "conciseness": 4,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t005_tier1_w000",
+    "transcript_id": "t005",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t026_tier1_w004",
+    "transcript_id": "t025",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 3,
+      "conciseness": 5,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t014_xw001",
+    "transcript_id": "t013",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t015_tier1_w001",
+    "transcript_id": "t014",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t026_exec",
+    "transcript_id": "t025",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 3,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t021_tier1_w000",
+    "transcript_id": "t020",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t022_xw002",
+    "transcript_id": "t021",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        2
+      ],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t015_xw000",
+    "transcript_id": "t014",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t021_tier1_w001",
+    "transcript_id": "t020",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t026_tier1_w000",
+    "transcript_id": "t026",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t005_exec",
+    "transcript_id": "t005",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t015_exec",
+    "transcript_id": "t014",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 3,
+      "conciseness": 5,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t006_tier1_w000",
+    "transcript_id": "t006",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t022_xw003",
+    "transcript_id": "t021",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        0,
+        1
+      ],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t015_xw001",
+    "transcript_id": "t014",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t022_xw004",
+    "transcript_id": "t021",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t021_tier1_w002",
+    "transcript_id": "t020",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t026_tier1_w001",
+    "transcript_id": "t026",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t021_tier1_w003",
+    "transcript_id": "t020",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t026_tier1_w002",
+    "transcript_id": "t026",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t006_exec",
+    "transcript_id": "t006",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 1,
+      "completeness": 2,
+      "conciseness": 4,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t007_tier1_w000",
+    "transcript_id": "t007",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t021_exec",
+    "transcript_id": "t020",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 1,
+      "completeness": 3,
+      "conciseness": 5,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t026_tier1_w003",
+    "transcript_id": "t026",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t007_exec",
+    "transcript_id": "t007",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 3,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t022_tier1_w000",
+    "transcript_id": "t021",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t026_exec",
+    "transcript_id": "t026",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 4,
+      "conciseness": 4,
+      "clarity": 3
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t023_xw001",
+    "transcript_id": "t022",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t016_xw000",
+    "transcript_id": "t015",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        6
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t016_tier1_w000",
+    "transcript_id": "t015",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t023_xw003",
+    "transcript_id": "t022",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        2
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t023_xw000",
+    "transcript_id": "t022",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        2,
+        3,
+        6,
+        7,
+        9,
+        12,
+        14
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t023_xw002",
+    "transcript_id": "t022",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t000_xw000",
+    "transcript_id": "t000",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t021_xw003",
+    "transcript_id": "t020",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t011_xw001",
+    "transcript_id": "t010",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t020_xw000",
+    "transcript_id": "t019",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t026_xw002",
+    "transcript_id": "t025",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        16
+      ],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t004_xw000",
+    "transcript_id": "t004",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t018_xw003",
+    "transcript_id": "t017",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        1,
+        5,
+        14,
+        15
+      ],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t013_xw001",
+    "transcript_id": "t012",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t024_xw004",
+    "transcript_id": "t023",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t020_xw004",
+    "transcript_id": "t019",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [
+        0,
+        1,
+        2
+      ],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t029_xw003",
+    "transcript_id": "t028",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t028_xw001",
+    "transcript_id": "t027",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "false_negative_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t028_tier1_w000",
+    "transcript_id": "t028",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 4,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t028_tier1_w001",
+    "transcript_id": "t028",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t029_xw002",
+    "transcript_id": "t028",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "false_negative_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t028_xw002",
+    "transcript_id": "t027",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t028_xw000",
+    "transcript_id": "t027",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "false_negative_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t028_xw003",
+    "transcript_id": "t027",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [
+        0,
+        1,
+        2
+      ],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t029_tier1_w000",
+    "transcript_id": "t029",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t028_exec",
+    "transcript_id": "t028",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t028_xw004",
+    "transcript_id": "t027",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t028_tier1_w002",
+    "transcript_id": "t028",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 3,
+      "completeness": 3,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t029_tier1_w001",
+    "transcript_id": "t029",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t017_xw002",
+    "transcript_id": "t016",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t029_xw001",
+    "transcript_id": "t028",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [
+        0
+      ],
+      "false_negative_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t029_xw001",
+    "transcript_id": "t029",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        0
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t029_exec",
+    "transcript_id": "t029",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 1,
+      "completeness": 2,
+      "conciseness": 4,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t028_xw000",
+    "transcript_id": "t028",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        2,
+        3
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t028_xw002",
+    "transcript_id": "t028",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        5,
+        6
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t029_xw000",
+    "transcript_id": "t029",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [
+        5,
+        6
+      ],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t029_xw000",
+    "transcript_id": "t028",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t028_xw001",
+    "transcript_id": "t028",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        1
+      ]
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t027_xw001",
+    "transcript_id": "t027",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": []
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t027_tier1_w000",
+    "transcript_id": "t027",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 5,
+      "completeness": 5,
+      "conciseness": 5,
+      "clarity": 5
+    },
+    "error": null
+  },
+  {
+    "kind": "summary",
+    "record_id": "t027_tier1_w001",
+    "transcript_id": "t027",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 4
+    },
+    "error": null
+  },
+  {
+    "kind": "exec",
+    "record_id": "t027_exec",
+    "transcript_id": "t027",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "faithfulness": 2,
+      "completeness": 4,
+      "conciseness": 5,
+      "clarity": 3
+    },
+    "error": null
+  },
+  {
+    "kind": "action_extraction",
+    "record_id": "t027_xw000",
+    "transcript_id": "t027",
+    "candidate_model": "Qwen/Qwen3.5-4B",
+    "judge_name": "local-Qwen3.6-27B-FP8",
+    "payload": {
+      "matches": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "false_positive_indices": [],
+      "false_negative_indices": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "error": null
+  }
+]
